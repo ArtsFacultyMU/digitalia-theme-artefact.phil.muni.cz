@@ -1,0 +1,83 @@
+.text_red
+{
+  color: red;
+}
+
+.text_white
+{
+  color: white;
+}
+
+.node--type-a3d-platform-homepage .node__title
+{
+  display: none;
+}
+
+.exm-homepage .field--name-field-banner-text
+{
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 25.3vw;
+  max-width: 1170px;
+  max-height: 297px;
+}
+
+.nef-homepage .field--name-field-banner-text
+{
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/nef_banner.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 25.3vw;
+  max-width: 1170px;
+  max-height: 297px;
+}
+
+.arf-homepage .field--name-field-banner-text
+{
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 25.3vw;
+  max-width: 1170px;
+  max-height: 297px;
+}
+
+.views-label
+{
+  font-weight: bold;
+}
+
+.button:visited
+{
+  background-color: #004899;
+  color: white;
+  font-weight: bold;
+  border-radius: 0;
+  border: white solid 2px;
+  text-decoration: none;
+  background-image: none;
+  padding: 0.6rem;
+}
+
+.block-sitelogo
+{
+  flex-grow: 1;
+}
+
+/* fixes search bar overflow */
+.bef-exposed-form .form-item.form-type-textfield
+{
+  float: none;
+}
+
+/* bring back reset button */
+#edit-reset,
+#edit-reset--2,
+#edit-reset--3,
+#edit-reset--4 {
+	display: inline-block;
+}
