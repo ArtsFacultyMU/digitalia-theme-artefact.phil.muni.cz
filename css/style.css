@@ -13,7 +13,7 @@
   display: none;
 }
 
-.exm-homepage .field--name-field-banner-text
+.node--type-a3d-platform-homepage .field--name-field-banner-text
 {
   background-image: url(/themes/custom/islandora_muni/platform_specific/images/header.jpg);
   background-repeat: no-repeat;
@@ -22,31 +22,50 @@
   height: 25.3vw;
   max-width: 1170px;
   max-height: 297px;
+  margin-bottom: 1rem;
 }
 
-.nef-homepage .field--name-field-banner-text
+.exm-homepage .field--name-field-banner-text
 {
-  background-image: url(/themes/custom/islandora_muni/platform_specific/images/nef_banner.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  height: 25.3vw;
-  max-width: 1170px;
-  max-height: 297px;
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/header.jpg);
 }
 
 .arf-homepage .field--name-field-banner-text
 {
   background-image: url(/themes/custom/islandora_muni/platform_specific/images/header.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  height: 25.3vw;
-  max-width: 1170px;
-  max-height: 297px;
 }
 
-.views-label
+.nef-homepage .field--name-field-banner-text
+{
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/nef_banner.jpg);
+}
+
+p.banner-container
+{
+  transform: translateY(2vw);
+  font-weight: bold;
+  color: white;
+  padding: 1rem;
+}
+
+p.banner-container > span
+{
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+p.banner-container > span:nth-child(1)
+{
+  font-size: 3.2rem;
+}
+
+.field--type-entity-reference
+{
+  margin-bottom: 0;
+}
+
+.views-label,
+.field--type-entity-reference .field__label
 {
   font-weight: bold;
 }
@@ -80,4 +99,17 @@
 #edit-reset--3,
 #edit-reset--4 {
 	display: inline-block;
+}
+
+.region-primary-menu ul#superfish-arf-main-menu > li:nth-last-child(3),
+.region-primary-menu ul#superfish-exm-main-menu > li:nth-last-child(3),
+.region-primary-menu ul#superfish-nef-main-menu > li:nth-last-child(5),
+.region-primary-menu ul#superfish-main > li:nth-last-child(2)
+{
+  flex-grow: 2;
+}
+
+.region-primary-menu ul.menu > li:nth-last-child(5)
+{
+  flex-grow: unset;
 }
