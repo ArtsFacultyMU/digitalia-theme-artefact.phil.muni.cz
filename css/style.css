@@ -25,20 +25,24 @@
   margin-bottom: 1rem;
 }
 
-.exm-homepage .field--name-field-banner-text
+.exm .field--name-field-banner-text
 {
   background-image: url(/themes/custom/islandora_muni/platform_specific/images/header.jpg);
 }
 
-.arf-homepage .field--name-field-banner-text
+.arf .field--name-field-banner-text
 {
-  background-image: url(/themes/custom/islandora_muni/platform_specific/images/header.jpg);
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/header_arf.jpg);
 }
 
-.nef-homepage .field--name-field-banner-text
+.nef .field--name-field-banner-text
 {
-  background-image: url(/themes/custom/islandora_muni/platform_specific/images/nef_banner.jpg);
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/header_nef.jpg);
 }
+
+.kch .field--name-field-banner-text
+{
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/kch_banner.JPG); }
 
 p.banner-container
 {
@@ -101,10 +105,11 @@ p.banner-container > span:nth-child(1)
 	display: inline-block;
 }
 
-.region-primary-menu ul#superfish-arf-main-menu > li:nth-last-child(3),
-.region-primary-menu ul#superfish-exm-main-menu > li:nth-last-child(3),
-.region-primary-menu ul#superfish-nef-main-menu > li:nth-last-child(5),
-.region-primary-menu ul#superfish-main > li:nth-last-child(2)
+.region-primary-menu ul#superfish-arf-main-menu > li:nth-last-child(4),
+.region-primary-menu ul#superfish-exm-main-menu > li:nth-last-child(2),
+.region-primary-menu ul#superfish-nef-main-menu > li:nth-last-child(4),
+.region-primary-menu ul#superfish-kch-main-menu > li:nth-last-child(4),
+.region-primary-menu ul#superfish-main > li:nth-last-child(4)
 {
   flex-grow: 2;
 }
@@ -112,4 +117,228 @@ p.banner-container > span:nth-child(1)
 .region-primary-menu ul.menu > li:nth-last-child(5)
 {
   flex-grow: unset;
+}
+
+.media--type-video .field__item video
+{
+  width: 100%;
+}
+
+
+.a3d-editor-block .view-header .a3d-editor-block
+{
+  padding-top: 1em;
+  display: flex;
+}
+
+.a3d-editor-block div.view-content
+{
+  display: none;
+}
+
+div.region-primary-menu
+{
+  display: flex;
+}
+
+.simplelogin-link .signreg
+{
+  display: none;
+}
+
+.simplelogin-form input.button
+{
+  background-color: #004899;
+}
+
+div.about-authors
+{
+  background-color: #F0F0F0;
+  max-width: 650px;
+  padding: 5px 20px 5px 20px;
+}
+
+.about-authors img
+{
+  padding-right: 15px;
+  padding-bottom: 1.75em;
+  width: 253px;
+}
+
+#views-exposed-form-a3d-group-terms-a3d-all-terms div.form--inline,
+#views-exposed-form-a3d-group-terms-a3d-platform-terms div.form--inline,
+#views-exposed-form-a3d-meta-search-index-search-a3d div.form--inline,
+#views-exposed-form-a3d-arf-search-index-arf-search div.form--inline,
+#views-exposed-form-a3d-nef-search-index-search-nef div.form--inline
+{
+  display: grid;
+}
+
+#views-exposed-form-a3d-meta-search-index-search-a3d .form--inline .form-item input.form-text,
+#views-exposed-form-a3d-meta-search-index-search-a3d .form--inline select.form-select,
+#views-exposed-form-a3d-arf-search-index-arf-search .form--inline .form-item input.form-text,
+#views-exposed-form-a3d-arf-search-index-arf-search .form--inline select.form-select,
+#views-exposed-form-a3d-nef-search-index-search-nef .form--inline .form-item input.form-text,
+#views-exposed-form-a3d-nef-search-index-search-nef .form--inline select.form-select
+{
+  width: 100%;
+}
+
+#views-exposed-form-a3d-group-terms-a3d-all-terms .form--inline > div.form-item:nth-child(2),
+#views-exposed-form-a3d-group-terms-a3d-platform-terms .form--inline > div.form-item:nth-child(2)
+{
+  grid-column-end: 3;
+}
+
+#views-exposed-form-a3d-meta-search-index-search-a3d .form--inline > div.form-item:nth-child(3),
+#views-exposed-form-a3d-arf-search-index-arf-search .form--inline > div.form-item:nth-child(3),
+#views-exposed-form-a3d-nef-search-index-search-nef .form--inline > div.form-item:nth-child(3)
+{
+  grid-column-end: 4;
+}
+
+#views-exposed-form-a3d-arf-search-index-arf-search .form--inline > div.form-item:nth-child(11)
+{
+  grid-column-end: 2;
+}
+
+#views-exposed-form-a3d-arf-search-index-arf-search .form--inline > div#edit-actions:nth-last-child(1),
+#views-exposed-form-a3d-nef-search-index-search-nef .form--inline > div#edit-actions:nth-last-child(1)
+{
+  grid-row-end: 6;
+}
+
+#views-exposed-form-a3d-meta-search-index-search-a3d .form--inline > div.form-item:nth-last-child(3)
+{
+  grid-column-end: 2;
+}
+
+
+
+.models a.button,
+.view-a3d-nef-media article a.button,
+.view-a3d-arf-media article a.button
+{
+  margin: 0;
+}
+
+.models canvas
+{
+  margin-bottom: 1em;
+}
+
+#views-exposed-form-a3d-meta-search-index-browse-a3d-paged,
+#views-exposed-form-a3d-meta-search-index-search-a3d-paged,
+#views-exposed-form-a3d-arf-search-index-arf-browse-paged,
+#views-exposed-form-a3d-arf-search-index-arf-search-paged,
+#views-exposed-form-a3d-nef-search-index-browse-nef-paged,
+#views-exposed-form-a3d-nef-search-index-search-nef-paged
+{
+  display: none;
+}
+
+.a3d-grid-page .node--view-mode-meta-browse div.views-row,
+.a3d-grid-page .views-view-grid .field-content div.views-row
+{
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nef-grid-page .node--view-mode-nef-browse div.views-row,
+.nef-grid-page .views-view-grid .field-content div.views-row
+{
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hidden
+{
+  display: none;
+}
+
+.compare-floating
+{
+  position: fixed;
+  z-index: 255;
+  bottom: 1em;
+  right: 1em;
+}
+
+.fade-in
+{
+  opacity: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out
+{
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/*
+.view-display-id-a3d_search div.upper-pager,
+.view-display-id-a3d_browse div.upper-pager,
+.view-display-id-a3d_taxonomy div.upper-pager,
+.view-display-id-arf_search div.upper-pager,
+.view-display-id-arf_browse div.upper-pager,
+.view-display-id-arf_taxonomy div.upper-pager,
+.view-display-id-nef_search div.upper-pager,
+.view-display-id-nef_browse div.upper-pager,
+.view-display-id-nef_taxonomy div.upper-pager
+{
+  display: none;
+}
+*/
+
+div.upper-pager
+{
+  display: none;
+}
+
+.all-pagers div.upper-pager
+{
+  display: inherit;
+}
+
+.view-display-id-a3d caption h3,
+.view-display-id-arf caption h3,
+.view-display-id-nef caption h3
+{
+  text-align: left;
+}
+
+/* hide link to user profile page */
+.toolbar-menu li.account
+{
+  display: none
+}
+
+#views-exposed-form-a3d-meta-search-index-browse-a3d div.form--inline,
+#views-exposed-form-a3d-arf-search-index-browse-arf div.form--inline,
+#views-exposed-form-a3d-nef-search-index-browse-nef div.form--inline
+{
+  display: grid;
+}
+
+#views-exposed-form-a3d-meta-search-index-browse-a3d .form--inline #edit-actions--2,
+#views-exposed-form-a3d-arf-search-index-browse-arf .form--inline #edit-actions--2,
+#views-exposed-form-a3d-nef-search-index-browse-nef .form--inline #edit-actions--2
+{
+  grid-column-start: 3;
+}
+
+.a3d-first-image {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.a3d-first-image img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
