@@ -266,16 +266,19 @@ div.about-authors
   right: 1em;
 }
 
+.no-click
+{
+  pointer-events: none;
+}
+
 .fade-in
 {
-  display: unset;
   opacity: 100%;
   transition: opacity 0.5s ease-in-out;
 }
 
 .fade-out
 {
-  display: unset;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
