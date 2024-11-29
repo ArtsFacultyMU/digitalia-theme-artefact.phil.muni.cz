@@ -229,10 +229,13 @@ div.about-authors
 
 #views-exposed-form-a3d-meta-search-index-browse-a3d-paged,
 #views-exposed-form-a3d-meta-search-index-search-a3d-paged,
+#views-exposed-form-a3d-meta-search-index-taxonomy-a3d-paged,
 #views-exposed-form-a3d-arf-search-index-arf-browse-paged,
 #views-exposed-form-a3d-arf-search-index-arf-search-paged,
+#views-exposed-form-a3d-arf-search-index-arf-taxonomy-paged,
 #views-exposed-form-a3d-nef-search-index-browse-nef-paged,
-#views-exposed-form-a3d-nef-search-index-search-nef-paged
+#views-exposed-form-a3d-nef-search-index-search-nef-paged,
+#views-exposed-form-a3d-nef-search-index-taxonomy-nef-paged
 {
   display: none;
 }
@@ -322,7 +325,9 @@ div.upper-pager
 }
 
 #views-exposed-form-a3d-meta-search-index-browse-a3d div.form--inline,
+#views-exposed-form-a3d-meta-search-index-taxonomy-a3d div.form--inline,
 #views-exposed-form-a3d-arf-search-index-browse-arf div.form--inline,
+#views-exposed-form-a3d-arf-search-index-taxonomy-arf div.form--inline,
 #views-exposed-form-a3d-nef-search-index-browse-nef div.form--inline,
 #views-exposed-form-a3d-nef-search-index-taxonomy-nef div.form--inline
 {
@@ -330,7 +335,9 @@ div.upper-pager
 }
 
 #views-exposed-form-a3d-meta-search-index-browse-a3d .form--inline #edit-actions--2,
+#views-exposed-form-a3d-meta-search-index-taxonomy-a3d .form--inline #edit-actions--2,
 #views-exposed-form-a3d-arf-search-index-browse-arf .form--inline #edit-actions--2,
+#views-exposed-form-a3d-arf-search-index-taxonomy-arf .form--inline #edit-actions--2,
 #views-exposed-form-a3d-nef-search-index-browse-nef .form--inline #edit-actions--2,
 #views-exposed-form-a3d-nef-search-index-taxonomy-nef .form--inline #edit-actions--2
 {
