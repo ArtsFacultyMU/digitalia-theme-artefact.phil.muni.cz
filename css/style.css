@@ -190,7 +190,7 @@ div.about-authors
   grid-column-end: 3;
 }
 
-#views-exposed-form-a3d-meta-search-index-search-a3d .form--inline > div.form-item:nth-child(3),
+#views-exposed-form-a3d-meta-search-index-search-a3d .form--inline > div:nth-child(3),
 #views-exposed-form-a3d-arf-search-index-arf-search .form--inline > div.form-item:nth-child(3),
 #views-exposed-form-a3d-nef-search-index-search-nef .form--inline > div.form-item:nth-child(3)
 {
@@ -268,12 +268,14 @@ div.about-authors
 
 .fade-in
 {
+  display: unset;
   opacity: 100%;
   transition: opacity 0.5s ease-in-out;
 }
 
 .fade-out
 {
+  display: unset;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
@@ -318,14 +320,16 @@ div.upper-pager
 
 #views-exposed-form-a3d-meta-search-index-browse-a3d div.form--inline,
 #views-exposed-form-a3d-arf-search-index-browse-arf div.form--inline,
-#views-exposed-form-a3d-nef-search-index-browse-nef div.form--inline
+#views-exposed-form-a3d-nef-search-index-browse-nef div.form--inline,
+#views-exposed-form-a3d-nef-search-index-taxonomy-nef div.form--inline
 {
   display: grid;
 }
 
 #views-exposed-form-a3d-meta-search-index-browse-a3d .form--inline #edit-actions--2,
 #views-exposed-form-a3d-arf-search-index-browse-arf .form--inline #edit-actions--2,
-#views-exposed-form-a3d-nef-search-index-browse-nef .form--inline #edit-actions--2
+#views-exposed-form-a3d-nef-search-index-browse-nef .form--inline #edit-actions--2,
+#views-exposed-form-a3d-nef-search-index-taxonomy-nef .form--inline #edit-actions--2
 {
   grid-column-start: 3;
 }
@@ -341,4 +345,9 @@ div.upper-pager
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+div.views-field-block
+{
+  padding-bottom: 1em;
 }
