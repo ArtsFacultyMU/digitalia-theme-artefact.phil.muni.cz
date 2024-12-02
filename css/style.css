@@ -15,7 +15,7 @@
 
 .node--type-a3d-platform-homepage .field--name-field-banner-text
 {
-  background-image: url(/themes/custom/islandora_muni/platform_specific/images/header.jpg);
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/header_a3d.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -168,7 +168,7 @@ div.about-authors
 #views-exposed-form-a3d-group-terms-a3d-all-terms div.form--inline,
 #views-exposed-form-a3d-group-terms-a3d-platform-terms div.form--inline,
 #views-exposed-form-a3d-meta-search-index-search-a3d div.form--inline,
-#views-exposed-form-a3d-arf-search-index-arf-search div.form--inline,
+#views-exposed-form-a3d-arf-search-index-search-arf div.form--inline,
 #views-exposed-form-a3d-nef-search-index-search-nef div.form--inline
 {
   display: grid;
@@ -176,8 +176,8 @@ div.about-authors
 
 #views-exposed-form-a3d-meta-search-index-search-a3d .form--inline .form-item input.form-text,
 #views-exposed-form-a3d-meta-search-index-search-a3d .form--inline select.form-select,
-#views-exposed-form-a3d-arf-search-index-arf-search .form--inline .form-item input.form-text,
-#views-exposed-form-a3d-arf-search-index-arf-search .form--inline select.form-select,
+#views-exposed-form-a3d-arf-search-index-search-arf .form--inline .form-item input.form-text,
+#views-exposed-form-a3d-arf-search-index-search-arf .form--inline select.form-select,
 #views-exposed-form-a3d-nef-search-index-search-nef .form--inline .form-item input.form-text,
 #views-exposed-form-a3d-nef-search-index-search-nef .form--inline select.form-select
 {
@@ -191,7 +191,7 @@ div.about-authors
 }
 
 #views-exposed-form-a3d-meta-search-index-search-a3d .form--inline > div:nth-child(3),
-#views-exposed-form-a3d-arf-search-index-arf-search .form--inline > div.form-item:nth-child(3),
+#views-exposed-form-a3d-arf-search-index-search-arf .form--inline > div.form-item:nth-child(3),
 #views-exposed-form-a3d-nef-search-index-search-nef .form--inline > div.form-item:nth-child(3)
 {
   grid-column-end: 4;
@@ -213,6 +213,11 @@ div.about-authors
   grid-column-end: 2;
 }
 
+#views-exposed-form-a3d-arf-search-index-search-arf .form--inline > div.form-item:nth-last-child(3)
+{
+  grid-column-start: 1;
+}
+
 
 
 .models a.button,
@@ -230,9 +235,9 @@ div.about-authors
 #views-exposed-form-a3d-meta-search-index-browse-a3d-paged,
 #views-exposed-form-a3d-meta-search-index-search-a3d-paged,
 #views-exposed-form-a3d-meta-search-index-taxonomy-a3d-paged,
-#views-exposed-form-a3d-arf-search-index-arf-browse-paged,
-#views-exposed-form-a3d-arf-search-index-arf-search-paged,
-#views-exposed-form-a3d-arf-search-index-arf-taxonomy-paged,
+#views-exposed-form-a3d-arf-search-index-browse-arf-paged,
+#views-exposed-form-a3d-arf-search-index-search-arf-paged,
+#views-exposed-form-a3d-arf-search-index-taxonomy-arf-paged,
 #views-exposed-form-a3d-nef-search-index-browse-nef-paged,
 #views-exposed-form-a3d-nef-search-index-search-nef-paged,
 #views-exposed-form-a3d-nef-search-index-taxonomy-nef-paged
@@ -344,6 +349,7 @@ div.upper-pager
   grid-column-start: 3;
 }
 
+/*
 .a3d-first-image {
   height: 400px;
   width: 100%;
@@ -355,6 +361,11 @@ div.upper-pager
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+*/
+
+.a3d-first-image {
+  text-align: center;
 }
 
 div.views-field-block
