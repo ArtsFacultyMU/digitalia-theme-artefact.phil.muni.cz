@@ -8,6 +8,48 @@
   color: white;
 }
 
+/* homepage with statistics */
+.node--type-a3d-platform-homepage .node__content
+{
+  display: grid;
+}
+
+.node--type-a3d-platform-homepage .node__content div.field--name-field-banner-text
+{
+  grid-column: 1 / 3;
+}
+
+.node--type-a3d-platform-homepage .node__content div.views-element-container
+{
+  grid-column: 1 / 2;
+}
+
+/*
+.node--type-a3d-platform-homepage .node__content .views-element-container div.view-display-id-eva_statistics_object
+{
+	float: left;
+	margin-right: 2rem;
+	min-height: 7rem;
+	border: 1px dotted black;
+	padding: .5rem 1rem;
+}
+*/
+
+.node--type-a3d-platform-homepage .node__content div.field--name-field-intro-text
+{
+  grid-column: 2 / 3;
+}
+
+.node--type-a3d-platform-homepage .node__content div.field--name-field-copyright-text
+{
+  grid-column: 1 / 3;
+}
+
+.node--type-a3d-platform-homepage .node__content div.field--name-field-citation-text
+{
+  grid-column: 1 / 3;
+}
+
 .node--type-a3d-platform-homepage .node__title
 {
   display: none;
@@ -105,11 +147,11 @@ p.banner-container > span:nth-child(1)
 	display: inline-block;
 }
 
-.region-primary-menu ul#superfish-arf-main-menu > li:nth-last-child(4),
+.region-primary-menu ul#superfish-arf-main-menu > li:nth-last-child(5),
 .region-primary-menu ul#superfish-exm-main-menu > li:nth-last-child(2),
-.region-primary-menu ul#superfish-nef-main-menu > li:nth-last-child(4),
+.region-primary-menu ul#superfish-nef-main-menu > li:nth-last-child(5),
 .region-primary-menu ul#superfish-kch-main-menu > li:nth-last-child(4),
-.region-primary-menu ul#superfish-main > li:nth-last-child(4)
+.region-primary-menu ul#superfish-main > li:nth-last-child(5)
 {
   flex-grow: 2;
 }
@@ -165,6 +207,28 @@ div.about-authors
   width: 253px;
 }
 
+/* advanced search fields in grid */
+#views-exposed-form-a3d-kch-search-index-kch-search div.form--inline,
+#views-exposed-form-a3d-kch-analyses-search-page-1 div.form--inline {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.form-item-field-porosity {
+    grid-column-start: 1;
+}
+
+#views-exposed-form-a3d-kch-analyses-search-page-1 .form-item-sort-by {
+  grid-column-start: 1;
+}
+
+#views-exposed-form-a3d-kch-analyses-search-page-1 .form-item input,
+#views-exposed-form-a3d-kch-search-index-kch-search .form-item input
+{
+    width: 100%;
+    display: block;
+}
+
 #views-exposed-form-a3d-group-terms-a3d-all-terms div.form--inline,
 #views-exposed-form-a3d-group-terms-a3d-platform-terms div.form--inline,
 #views-exposed-form-a3d-meta-search-index-search-a3d div.form--inline,
@@ -179,7 +243,9 @@ div.about-authors
 #views-exposed-form-a3d-arf-search-index-search-arf .form--inline .form-item input.form-text,
 #views-exposed-form-a3d-arf-search-index-search-arf .form--inline select.form-select,
 #views-exposed-form-a3d-nef-search-index-search-nef .form--inline .form-item input.form-text,
-#views-exposed-form-a3d-nef-search-index-search-nef .form--inline select.form-select
+#views-exposed-form-a3d-nef-search-index-search-nef .form--inline select.form-select,
+#views-exposed-form-a3d-kch-search-index-kch-search .form--inline .form-item input.form-text,
+#views-exposed-form-a3d-kch-search-index-kch-search .form--inline select.form-select
 {
   width: 100%;
 }
@@ -239,6 +305,7 @@ div.about-authors
 #views-exposed-form-a3d-arf-search-index-search-arf-paged,
 #views-exposed-form-a3d-arf-search-index-taxonomy-arf-paged,
 #views-exposed-form-a3d-nef-search-index-browse-nef-paged,
+#views-exposed-form-a3d-nef-search-index-browse-nef-all-paged,
 #views-exposed-form-a3d-nef-search-index-search-nef-paged,
 #views-exposed-form-a3d-nef-search-index-taxonomy-nef-paged
 {
@@ -334,6 +401,7 @@ div.upper-pager
 #views-exposed-form-a3d-arf-search-index-browse-arf div.form--inline,
 #views-exposed-form-a3d-arf-search-index-taxonomy-arf div.form--inline,
 #views-exposed-form-a3d-nef-search-index-browse-nef div.form--inline,
+#views-exposed-form-a3d-nef-search-index-browse-nef-all div.form--inline,
 #views-exposed-form-a3d-nef-search-index-taxonomy-nef div.form--inline
 {
   display: grid;
@@ -344,6 +412,7 @@ div.upper-pager
 #views-exposed-form-a3d-arf-search-index-browse-arf .form--inline #edit-actions--2,
 #views-exposed-form-a3d-arf-search-index-taxonomy-arf .form--inline #edit-actions--2,
 #views-exposed-form-a3d-nef-search-index-browse-nef .form--inline #edit-actions--2,
+#views-exposed-form-a3d-nef-search-index-browse-nef-all .form--inline #edit-actions--2,
 #views-exposed-form-a3d-nef-search-index-taxonomy-nef .form--inline #edit-actions--2
 {
   grid-column-start: 3;
@@ -364,6 +433,33 @@ div.upper-pager
 }
 */
 
+/* KCH advanced typology options */
+
+details#edit-secondary--3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+details#edit-secondary--3 > .details-wrapper {
+  padding: 0.5em 1.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.details-wrapper .form-item-field-sculpture-type {
+    grid-column-start: 1;
+}
+
+.details-wrapper .form-item-field-st-placement-type1 {
+    grid-column-start: 1;
+}
+
+.details-wrapper .form-item-field-st-shape-type1 {
+    grid-column-start: 1;
+}
+
+/* end KCH advanced typology options */
+
 .a3d-first-image {
   text-align: center;
 }
@@ -371,4 +467,40 @@ div.upper-pager
 div.views-field-block
 {
   padding-bottom: 1em;
+}
+
+fieldset .fieldset-legend
+{
+  font-weight: bold;
+}
+
+fieldset .fieldset-wrapper .js-form-item label
+{
+  font-weight: normal;
+}
+
+/* fix whitespace on formatted text fields */
+
+.views-field p:last-child {
+  margin: 0;
+}
+
+.views-field.views-field-field-note .field-content,
+.views-field.views-field-field-note-on-method .field-content,
+.views-field.views-field-field-publications .field-content
+{
+  display: inline-block;
+}
+
+.views-label.views-label-field-note,
+.views-label.views-label-field-note-on-method,
+.views-label.views-label-field-publications
+{
+  vertical-align: top;
+} 
+/* end fix */
+
+.fieldset-field-container div
+{
+  margin-left: 1em;
 }
