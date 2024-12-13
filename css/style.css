@@ -508,3 +508,8 @@ fieldset .fieldset-wrapper .js-form-item label
 {
   margin-left: 1em;
 }
+
+.platform-specific-logos div.content
+{
+  padding-right: 1em;
+}
