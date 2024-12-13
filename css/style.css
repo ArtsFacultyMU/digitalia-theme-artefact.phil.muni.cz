@@ -58,6 +58,7 @@
 .node--type-a3d-platform-homepage .field--name-field-banner-text
 {
   background-image: url(/themes/custom/islandora_muni/platform_specific/images/header_a3d.jpg);
+/*
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -65,6 +66,7 @@
   max-width: 1170px;
   max-height: 297px;
   margin-bottom: 1rem;
+*/
 }
 
 .exm .field--name-field-banner-text
@@ -86,6 +88,7 @@
 {
   background-image: url(/themes/custom/islandora_muni/platform_specific/images/kch_banner.JPG); }
 
+/*
 p.banner-container
 {
   transform: translateY(2vw);
@@ -104,6 +107,7 @@ p.banner-container > span:nth-child(1)
 {
   font-size: 3.2rem;
 }
+*/
 
 .field--type-entity-reference
 {
