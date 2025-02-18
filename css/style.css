@@ -155,6 +155,7 @@ p.banner-container > span:nth-child(1)
 .region-primary-menu ul#superfish-exm-main-menu > li:nth-last-child(2),
 .region-primary-menu ul#superfish-nef-main-menu > li:nth-last-child(5),
 .region-primary-menu ul#superfish-kch-main-menu > li:nth-last-child(5),
+.region-primary-menu ul#superfish-swd-main-menu > li:nth-last-child(5),
 .region-primary-menu ul#superfish-main > li:nth-last-child(5)
 {
   flex-grow: 2;
