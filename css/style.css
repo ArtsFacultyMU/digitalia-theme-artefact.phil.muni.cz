@@ -86,7 +86,13 @@
 
 .kch .field--name-field-banner-text
 {
-  background-image: url(/themes/custom/islandora_muni/platform_specific/images/kch_banner.JPG); }
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/kch_banner.JPG);
+}
+
+.swd .field--name-field-banner-text
+{
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/swd-banner.png);
+}
 
 /*
 p.banner-container
