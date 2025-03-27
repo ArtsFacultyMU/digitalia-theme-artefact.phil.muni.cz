@@ -94,6 +94,11 @@
   background-image: url(/themes/custom/islandora_muni/platform_specific/images/swd-banner.png);
 }
 
+.cmb .field--name-field-banner-text
+{
+  background-image: url(/themes/custom/islandora_muni/platform_specific/images/cmb_banner.png);
+}
+
 /*
 p.banner-container
 {
@@ -162,6 +167,7 @@ p.banner-container > span:nth-child(1)
 .region-primary-menu ul#superfish-nef-main-menu > li:nth-last-child(5),
 .region-primary-menu ul#superfish-kch-main-menu > li:nth-last-child(5),
 .region-primary-menu ul#superfish-swd-main-menu > li:nth-last-child(5),
+.region-primary-menu ul#superfish-cmb-main-menu > li:nth-last-child(5),
 .region-primary-menu ul#superfish-main > li:nth-last-child(5)
 {
   flex-grow: 2;
@@ -310,8 +316,10 @@ div.about-authors
 }
 
 #views-exposed-form-a3d-meta-search-index-browse-a3d-paged,
+#views-exposed-form-a3d-meta-search-index-browse-a3d-paged,
 #views-exposed-form-a3d-meta-search-index-search-a3d-paged,
 #views-exposed-form-a3d-meta-search-index-taxonomy-a3d-paged,
+#views-exposed-form-a3d-search-index-taxonomy-a3d-paged,
 #views-exposed-form-a3d-arf-search-index-browse-arf-paged,
 #views-exposed-form-a3d-arf-search-index-search-arf-paged,
 #views-exposed-form-a3d-arf-search-index-taxonomy-arf-paged,
@@ -402,10 +410,12 @@ div.upper-pager
 }
 
 /* hide link to user profile page */
+/*
 .toolbar-menu li.account
 {
   display: none
 }
+*/
 
 #views-exposed-form-a3d-meta-search-index-browse-a3d div.form--inline,
 #views-exposed-form-a3d-meta-search-index-taxonomy-a3d div.form--inline,
