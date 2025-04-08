@@ -347,6 +347,46 @@ div.about-authors
   margin: 0;
 }
 
+.arf-grid-page .node--view-mode-nef-browse div.views-row,
+.arf-grid-page .views-view-grid .field-content div.views-row
+{
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* 
+   Views rendered form textfield inside views for some reason don't 
+   behave properly
+*/
+.views-view-grid.cols-1 div.views-col
+{
+  width: 100%;
+}
+
+.views-view-grid.cols-2 div.views-col
+{
+  width: 50%;
+}
+
+.views-view-grid.cols-3 div.views-col
+{
+  width: 33%;
+}
+
+.views-view-grid.cols-4 div.views-col
+{
+  width: 25%;
+}
+
+.views-view-grid.cols-5 div.views-col
+{
+  width: 20%;
+}
+
+
+
 .hidden
 {
   display: none;
@@ -430,11 +470,14 @@ div.upper-pager
 
 #views-exposed-form-a3d-meta-search-index-browse-a3d .form--inline #edit-actions--2,
 #views-exposed-form-a3d-meta-search-index-taxonomy-a3d .form--inline #edit-actions--2,
+#views-exposed-form-a3d-meta-search-index-taxonomy-a3d .form--inline .form-actions,
 #views-exposed-form-a3d-arf-search-index-browse-arf .form--inline #edit-actions--2,
 #views-exposed-form-a3d-arf-search-index-taxonomy-arf .form--inline #edit-actions--2,
+#views-exposed-form-a3d-arf-search-index-taxonomy-arf .form--inline .form-actions,
 #views-exposed-form-a3d-nef-search-index-browse-nef .form--inline #edit-actions--2,
 #views-exposed-form-a3d-nef-search-index-browse-nef-all .form--inline #edit-actions--2,
-#views-exposed-form-a3d-nef-search-index-taxonomy-nef .form--inline #edit-actions--2
+#views-exposed-form-a3d-nef-search-index-taxonomy-nef .form--inline #edit-actions--2,
+#views-exposed-form-a3d-nef-search-index-taxonomy-nef .form--inline .form-actions
 {
   grid-column-start: 3;
 }
@@ -534,4 +577,14 @@ fieldset .fieldset-wrapper .js-form-item label
 .platform-specific-logos div.content
 {
   padding-right: 1em;
+}
+
+.fieldset-no-border
+{
+  border: none;
+}
+
+.fieldset-no-legend legend
+{
+  display: none;
 }
