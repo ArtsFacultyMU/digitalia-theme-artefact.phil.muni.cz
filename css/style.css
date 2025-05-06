@@ -226,7 +226,7 @@ div.about-authors
 
 /* advanced search fields in grid */
 #views-exposed-form-a3d-kch-search-index-kch-search div.form--inline,
-#views-exposed-form-a3d-kch-analyses-search-page-1 div.form--inline {
+#views-exposed-form-a3d-kch-analyses-search-page div.form--inline {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -235,11 +235,11 @@ div.about-authors
     grid-column-start: 1;
 }
 
-#views-exposed-form-a3d-kch-analyses-search-page-1 .form-item-sort-by {
+#views-exposed-form-a3d-kch-analyses-search-page .form-item-sort-by {
   grid-column-start: 1;
 }
 
-#views-exposed-form-a3d-kch-analyses-search-page-1 .form-item input,
+#views-exposed-form-a3d-kch-analyses-search-page .form-item input,
 #views-exposed-form-a3d-kch-search-index-kch-search .form-item input
 {
     width: 100%;
