@@ -291,10 +291,12 @@ div.about-authors
   grid-row-end: 6;
 }
 
+/*
 #views-exposed-form-a3d-meta-search-index-search-a3d .form--inline > div.form-item:nth-last-child(3)
 {
   grid-column-end: 2;
 }
+*/
 
 #views-exposed-form-a3d-arf-search-index-search-arf .form--inline > div.form-item:nth-last-child(3)
 {
