@@ -590,3 +590,26 @@ fieldset .fieldset-wrapper .js-form-item label
 {
   display: none;
 }
+
+/* details testing */
+
+details {
+}
+
+details > summary {
+  padding: 2px 6px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: #ddd;
+  padding: 2px 6px;
+  margin: 0;
+}
+
+details:open > summary {
+  background-color: #ccf;
+}
+
