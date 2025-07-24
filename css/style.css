@@ -328,7 +328,13 @@ div.about-authors
 #views-exposed-form-a3d-nef-search-index-browse-nef-paged,
 #views-exposed-form-a3d-nef-search-index-browse-nef-all-paged,
 #views-exposed-form-a3d-nef-search-index-search-nef-paged,
-#views-exposed-form-a3d-nef-search-index-taxonomy-nef-paged
+#views-exposed-form-a3d-nef-search-index-taxonomy-nef-paged,
+#views-exposed-form-a3d-swd-search-index-browse-swd-paged,
+#views-exposed-form-a3d-swd-search-index-search-swd-paged,
+#views-exposed-form-a3d-swd-search-index-browse-swd-all-paged,
+#views-exposed-form-a3d-cmb-search-index-browse-cmb-paged,
+#views-exposed-form-a3d-cmb-search-index-search-cmb-paged,
+#views-exposed-form-a3d-cmb-search-index-browse-cmb-all-paged
 {
   display: none;
 }
