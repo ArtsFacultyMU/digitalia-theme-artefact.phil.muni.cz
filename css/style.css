@@ -250,7 +250,9 @@ div.about-authors
 #views-exposed-form-a3d-group-terms-a3d-platform-terms div.form--inline,
 #views-exposed-form-a3d-meta-search-index-search-a3d div.form--inline,
 #views-exposed-form-a3d-arf-search-index-search-arf div.form--inline,
-#views-exposed-form-a3d-nef-search-index-search-nef div.form--inline
+#views-exposed-form-a3d-nef-search-index-search-nef div.form--inline,
+#views-exposed-form-a3d-swd-search-index-search-swd div.form--inline,
+#views-exposed-form-a3d-cmb-search-index-search-cmb div.form--inline
 {
   display: grid;
 }
@@ -262,7 +264,11 @@ div.about-authors
 #views-exposed-form-a3d-nef-search-index-search-nef .form--inline .form-item input.form-text,
 #views-exposed-form-a3d-nef-search-index-search-nef .form--inline select.form-select,
 #views-exposed-form-a3d-kch-search-index-kch-search .form--inline .form-item input.form-text,
-#views-exposed-form-a3d-kch-search-index-kch-search .form--inline select.form-select
+#views-exposed-form-a3d-kch-search-index-kch-search .form--inline select.form-select,
+#views-exposed-form-a3d-swd-search-index-swd-search .form--inline .form-item input.form-text,
+#views-exposed-form-a3d-swd-search-index-swd-search .form--inline select.form-select,
+#views-exposed-form-a3d-cmb-search-index-cmb-search .form--inline .form-item input.form-text,
+#views-exposed-form-a3d-cmb-search-index-cmb-search .form--inline select.form-select
 {
   width: 100%;
 }
@@ -275,7 +281,9 @@ div.about-authors
 
 #views-exposed-form-a3d-meta-search-index-search-a3d .form--inline > div:nth-child(3),
 #views-exposed-form-a3d-arf-search-index-search-arf .form--inline > div.form-item:nth-child(3),
-#views-exposed-form-a3d-nef-search-index-search-nef .form--inline > div.form-item:nth-child(3)
+#views-exposed-form-a3d-nef-search-index-search-nef .form--inline > div.form-item:nth-child(3),
+#views-exposed-form-a3d-swd-search-index-search-swd .form--inline > div.form-item:nth-child(3),
+#views-exposed-form-a3d-cmb-search-index-search-cmb .form--inline > div.form-item:nth-child(3)
 {
   grid-column-end: 4;
 }
