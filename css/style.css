@@ -311,6 +311,10 @@ div.about-authors
   grid-column-start: 1;
 }
 
+/* the any term field is too short on swd */
+input#edit-search-keyword--4 {
+  width: -webkit-fill-available;
+} 
 
 
 .models a.button,
