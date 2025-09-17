@@ -311,8 +311,10 @@ div.about-authors
   grid-column-start: 1;
 }
 
-/* the any term field is too short on swd */
-input#edit-search-keyword--4 {
+/* the any term field is too short on swd and cmb */
+input#edit-search-keyword--4,
+input#edit-search-keyword--3
+ {
   width: -webkit-fill-available;
 } 
 
@@ -611,23 +613,32 @@ fieldset .fieldset-wrapper .js-form-item label
 
 /* details testing */
 
-details {
-}
-
 details > summary {
   padding: 2px 6px;
   background-color: #ddd;
   border: none;
   cursor: pointer;
+  text-shadow: none;
 }
 
 details > p {
-  background-color: #ddd;
+  background-color: white;
   padding: 2px 6px;
   margin: 0;
 }
 
-details:open > summary {
-  background-color: #ccf;
+details.details-cite {
+  border: unset;
+  margin-top: unset;
+}
+
+details > summary.summary-cite {
+  padding-left: unset;
+  padding-top: unset; 
+  background: white;
+}
+
+details.details-icon > summary {
+  list-style-type: none;
 }
 
