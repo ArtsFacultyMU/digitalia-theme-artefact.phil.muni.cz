@@ -642,3 +642,24 @@ details.details-icon > summary {
   list-style-type: none;
 }
 
+/* fix width for inline rendered entity references */
+.field--type-entity-reference.field--label-inline {
+    display: flex;
+    align-items: baseline;
+}
+
+.field--type-entity-reference.field--label-inline .field__items {
+    flex: 1;
+}
+
+.field--type-entity-reference.field--label-inline .field__items .field__item .node__content {
+    margin-top: 10px;
+} 
+
+.field--type-entity-reference.field--label-inline .field__items .field__item:first-child .node__content {
+    margin-top: 0;
+} 
+
+.field--type-entity-reference.field--label-inline .field__items .field__item:nth-child(n+1):last-child .node__content {
+    margin-bottom: 10px;
+} 
