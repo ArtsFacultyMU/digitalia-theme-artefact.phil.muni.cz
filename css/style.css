@@ -8,6 +8,11 @@
   color: white;
 }
 
+/* let users use italic in text edit forms */
+em {
+	font-style: italic;
+}
+
 /* homepage with statistics */
 .node--type-a3d-platform-homepage .node__content
 {
